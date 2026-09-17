@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannah Kim Sison | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <section id="firstPage" class="first-page">
+
+        <div class="welcome-box">
+
+            <h1>Find Out About Me</h1>
+
+            <button class="enter-button" onclick="showHome()">
+                ENTER
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="homePage" class="home-page">
+
+        <header class="navbar">
+
+            <div class="logo">
+                <span>LETS</span> find out 😣
+            </div>
+
+            <div class="menu">
+                ☰
+            </div>
+
+        </header>
+
+
+        <main class="profile">
+
+            <div class="profile-image">
+
+                <img src="kim.jpg" alt="Hannah Kim Sison">
+
+            </div>
+
+
+            <section class="intro">
+
+                <h3>Hello, I'm</h3>
+
+                <h1>Hannah Kim Sison</h1>
+
+                <h2>
+                    And I'm an
+                    <span>IT College Student</span>
+                </h2>
+
+                <p>
+                    I'm Hannah Kim Sison, an Information Technology college student who is currently studying in Central Philippines State University, and I barely enjoy exploring
+                    different areas of technology and creating projects
+                    using what I learn.
+                </p>
+
+
+                <button class="cv-button" onclick="showCV()">
+                    Continue
+                </button>
+
+            </section>
+
+        </main>
+
+    </section>
+
+
+    <section id="cvPage" class="cv-page">
+
+
+        <header class="navbar">
+
+            <div class="logo">
+                <span>MY</span>  Portfolio^_<
+            </div>
+
+          
+            <div class="menu">
+                ☰
+            </div>
+
+        </header>
+
+
+        <main class="cv-content">
+
+            <h1>My Portfolio</h1>
+
+            <h2>Hannah Kim Sison</h2>
+
+            <p class="cv-title">
+                Information Technology Student
+            </p>
+
+
+            <hr>
+
+
+            <h3>About Me</h3>
+
+            <p>
+                I am an IT student and learning new technologies and improving my programming
+                skills is my top priority.
+            </p>
+
+
+            <h3>Education</h3>
+
+            <p>
+              
+                Bachelor of Science in Information Technology
+            </p>
+
+
+            <h3>Skills</h3>
+
+            <p>
+                HTML • CSS • Java • JavaScript • C++ • SQL
+            </p>
+
+
+            <h3>Career Goal</h3>
+
+            <p>
+                My goal is to become a successful IT professional and
+                continue improving my programming and technical skills.
+            </p>
+
+
+            <button class="back-button" onclick="showHome()">
+                Back to Home
+            </button>
+
+        </main>
+
+    </section>
+
+    <script>
+
+        function showHome() {
+
+            document.getElementById("firstPage").style.display = "none";
+
+            document.getElementById("homePage").style.display = "block";
+
+            document.getElementById("cvPage").style.display = "none";
+
+            window.scrollTo(0, 0);
+        }
+
+
+        function showCV() {
+
+            document.getElementById("firstPage").style.display = "none";
+
+            document.getElementById("homePage").style.display = "none";
+
+            document.getElementById("cvPage").style.display = "block";
+
+            window.scrollTo(0, 0);
+        }
+
+    </script>
+
+</body>
+</html>
+Compose
+Write to Hannah Kim Sison
